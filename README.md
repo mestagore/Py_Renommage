@@ -6,11 +6,11 @@ Un script Python permettant de renommer des fichiers en masse via une interface 
 
 ## Fonctionnalités
 
-- 📂 Sélection d'un **dossier entier** ou de **fichiers spécifiques** via une fenêtre graphique
-- 🔢 Numérotation automatique avec **padding dynamique** (s'adapte au nombre de fichiers)
-- 🛡️ Validation du préfixe (caractères interdits, longueur maximale)
-- 🔄 Gestion des **conflits de noms** (passage par noms temporaires)
-- ✅ Compatible **Windows / Linux / macOS**
+- Sélection d'un **dossier entier** ou de **fichiers spécifiques** via une fenêtre graphique
+- Numérotation automatique avec **padding dynamique** (s'adapte au nombre de fichiers)
+- Validation du préfixe (caractères interdits, longueur maximale)
+- Gestion des **conflits de noms** (passage par noms temporaires)
+- Compatible **Windows / Linux / macOS**
 
 ---
 
@@ -78,10 +78,10 @@ Renommage terminé !
 
 | Cas | Comportement |
 |---|---|
-| Champ vide | ❌ Redemande |
-| Plus de 50 caractères | ❌ Redemande avec le compte |
-| Caractères interdits (`< > : " / \ \| ? *`) | ❌ Redemande avec la liste |
-| Préfixe valide | ✅ Poursuit le renommage |
+| Champ vide | Redemande |
+| Plus de 50 caractères | Redemande avec le compte |
+| Caractères interdits (`< > : " / \ \| ? *`) | Redemande avec la liste |
+| Préfixe valide | Poursuit le renommage |
 
 ---
 
